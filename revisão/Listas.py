@@ -79,6 +79,15 @@ l2 = [variavel*2  for variavel in l1]
 l3 = [(v,v2) for v in l1 for v2 in range(3)]
 # o parâmetro v recebe l1 e v2 recebe range 3
 '''
+# indicando índice com count
+'''
+from itertools import count
+contador = count()
+lista = ['joão','maria','joana','estelar']
+lista = zip (contador,lista)
+print(list(lista))
+'''
+
 # recoloca cada valor de a para '@' e coloque tudo em maiúsculo
 
 '''
