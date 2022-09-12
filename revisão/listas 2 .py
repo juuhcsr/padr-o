@@ -107,3 +107,22 @@ numeros = [[numero,numero**2]for numero in range(10)]
 flat = [y for x in numeros for y in x] # para cada x em numeros eu tenho uma lista
 print(flat)
 '''
+
+#lambda
+
+
+'''
+def funcao(arg,agr2):
+    return arg * agr2
+
+var = funcao(2,2)
+a = lambda x,y: x*y
+print(var, a)
+'''
+#organizando uma lista em ordem do menor pro maior 
+'''
+lista =[ ['p1',7], ['p2',33], ['p3',67], ['p4',50], ['p5',32],  ['p6',24],]
+lista.sort(key=lambda item:item[1], reverse = True)
+print(lista)
+print(sorted(lista,key=lambda i:i[1], reverse=True # outro jeito sem lambda
+'''
