@@ -15,7 +15,7 @@ from email.mime.image import MIMEImage
 import smtplib
 
 meu_email = 'julio.ferrer@colaborativaeduc.com.br'
-minha_senha = '2812edua'
+minha_senha = '#'
 
 with open('template.html', 'r') as html:
     template = Template(html.read())
