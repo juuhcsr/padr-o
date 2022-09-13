@@ -7,4 +7,4 @@ Created on Tue Sep 13 14:31:52 2022
 """
 
 meu_email= 'julio.ferrer@colaborativaeduc.com.br'
-minha_senha = '2812edua'
+minha_senha = ''
